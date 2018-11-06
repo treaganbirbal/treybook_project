@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------END RESET-------------------- */
+
+body {
+    background: #EDF0F6;
+    color: #1d2129;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 0;
+    padding: 0;
+    unicode-bidi: embed;
+}
+
+.header {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+   background-image: linear-gradient(#6d84b4, #3b5998 30%);
+    padding-top: 13px;
+    padding-bottom: 10px;
+    width: 100%;
+    color: white;
+    margin-bottom: 50px;
+}
+
+h1 {
+  font-weight: 900;
+  margin-left: 80px;
+  font-size: 40px;
+
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.email-login{
+  display: inline-block;
+  padding-right: 0px;
+  margin-right: 10px;
+}
+
+.password-login{
+  display: inline-block;
+  padding-right: 0px;
+  margin-right: 10px;
+}
+
+.email-span, .password-span{
+  display: inline-flex;
+  float: right;
+  padding: 20px;
+
+font-family: sans-serif;
+}
+
+.btn-login {
+  display: flex
+  margin-left: 100px;
+  color: white;
+  background-color: #33529E;
+  padding-left: 10px; ;
+  position: absolute;
+  right: 0;
+  top: 100;
+  margin-right: 110px;
+  margin-top: 20px;
+}
+.forgot {
+  font-size: 14px;
+  display: flex;
+  ;
+  /* right: 200;
+  top: 200; */
+  margin-top: 40px;
+}
+
+.slogan{
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
+  font-size: 28px;
+  font-weight: 800;
+  margin-left: 225px;
+  margin-right: 700px;
+}
+
+.icons {
+  margin-left: 225px;
+  margin-right: 750px;
+}
+
+
+.lsidebar.form{
+  font-family: "Freight Sans Bold", Helvetica, Arial, sans-serif !important;
+  position: absolute;
+  margin-right: 225px;
+  margin-left: 750px;
+  padding-bottom: -300px;
+}
+.calltoaction{
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: -444;
+}
